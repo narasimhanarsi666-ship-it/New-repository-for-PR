@@ -69,7 +69,7 @@ export default function CartSummary({ totals }) {
 
       {discount > 0 && (
         <p style={{ marginTop: "8px", color: "green" }}>
-          You saved {formatCurrency(discount)} 🎉
+          
         </p>
       )}
     </div>
